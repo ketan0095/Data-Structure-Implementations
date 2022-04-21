@@ -35,7 +35,7 @@ class convert:
     def __init__(self, len_of_exp):
 
         # initialize stack top
-        self.top = -1
+        self.top -=1
         self.size = len_of_exp
         # create array
         self.array = []
